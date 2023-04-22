@@ -16,9 +16,50 @@ p.hero{
     font-size: 18px;
 }
 
+.header{
+    display: flex;
+}
+
+.header div{
+    flex: 1;
+    padding: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color:#F9FAF8; 
+    padding: 5px;
+}
+
+.infoDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    text-align: center;    
+}
 h1.infoDiv{
-font-size: 36px;
-font-weight: extra-bold;
+    font-size: 36px;
+    font-weight: extra-bold;   
+}
+
+
+.infoImg {
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.infoWrapper {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;    
+    padding: 20px;
 }
 
 .quoteDiv{
@@ -29,4 +70,36 @@ p.quoteDiv{
     font-size: 36px;
     font-weight: light italic;
     color: #1F2937;
+}
+
+.imageWrapper{
+    display: flex;
+    padding: 60px;
+}
+
+.imageWrapper div{
+    flex: 1
+}
+
+.imageDiv{
+    background-color: grey;
+    text-align: center;
+}
+
+.quoteDiv {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+}
+
+.quoteDiv div {
+    width: 300px;
+}
+
+button {
+    background-color: blue;
+    color:#F9FAF8;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
 }
